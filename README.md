@@ -11,6 +11,7 @@ Sign:
 $ codesign -fs "Your Certificate" "CodelessImxSDP.kext"
 
 $ codesign --verify -vvvv CodelessImxSDP.kext/
+
 CodelessImxSDP.kext/: valid on disk
 CodelessImxSDP.kext/: satisfies its Designated Requirement
 
